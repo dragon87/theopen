@@ -1,0 +1,23 @@
+{
+  "type": "interpreter-config",
+  "configurations": [
+    {
+      "settings": [
+        {
+          "driverOptions": {
+            "host": "ondemand.saucelabs.com",
+            "port": 80
+          },
+          "browserOptions": {
+            "browserName": "firefox",
+            "username": "dragoshaidet",
+            "accessKey": "f1cca48a-e5f3-4a58-95fb-73119813b827"
+          }
+        }
+      ],
+      "scripts": [
+        "tests/*"
+      ]
+    }
+  ]
+}
