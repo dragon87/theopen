@@ -1,0 +1,24 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Open Shop"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Go to players"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
